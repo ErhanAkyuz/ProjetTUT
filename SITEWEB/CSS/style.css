@@ -1,8 +1,49 @@
 body{
     background-color: white;
-    color:blue;
+    color:#000027;
 }
 
 html {
     background: #000;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    color: red;
+}
+h2 {
+    text-align: center;
+}
+
+.menu {
+	text-decoration: none;
+	border-top: dotted;
+	border-bottom: dotted;
+	border-width: 1px;
+	border-color: #ddd;
+	list-style: none;
+	position: relative;
+	padding-left: 23%;
+}
+
+.menu li {
+	display: inline;
+	padding: 2%;
+	line-height: 2;
+}
+
+.menu a {
+    color: black;
+	text-decoration: none;
+	text-decoration-color: grey;
+}
+
+.menu a:hover {
+	color: rgb(255, 0, 149);
+}
+
+.actif {
+	color: white;
+	text-decoration: underline;
 }
