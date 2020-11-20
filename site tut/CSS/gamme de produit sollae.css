@@ -5,8 +5,8 @@ body {
     position: relative;
     margin: 0px;
     padding: 0px;
-    background-image:url(../img/Fond.png);
-    }
+    background-image:linear-gradient(0.40turn,#00a0b0, #007e8a);
+}
 header{
     position: relative;
     top:0px;
@@ -17,21 +17,21 @@ nav{
     top: 0px;
     position: sticky;
     position: -webkit-sticky;
-    z-index:2;
+    z-index:4;
     width: 95%;
 }
 #entete{
     display: flex;
     width: 100%;
     background-color: #A2A1A1;
-    margin: 2%;
+    margin: 2.7%;
     margin-bottom: 2%;
 }
 .logo{
     height: calc(125px);
 }
 .text_header {
-    color: #EEB823;
+    color: #e6007f;
     font-size: 85px;
     margin-left: 22%;
     margin-right: 22%;
@@ -51,11 +51,12 @@ nav{
     display: flex;
     width: 100%;
     background-color: #A2A1A1;
-    margin: 2%;
+    margin: 2.7%;
     margin-bottom: 2%;
     align-items: center;
     position: sticky;
     position: -webkit-sticky;
+    top:0px;
 }
 .menu .home{
     font-size: 50px;
@@ -74,6 +75,7 @@ nav{
 }
 .navigation{
     position: relative;
+    
 }
 .sommaire{
     color: white;
@@ -87,11 +89,11 @@ nav{
     background-color: white;
     padding: 0 10px;
     width: 95%;
-    margin: 0 auto;
+    margin: 2.5% auto;
     height: auto;
 }
 h1{
-    color: #EEB823;
+    color: #e6007f;
     font-size: 40px;
 }
 .photo{
@@ -109,7 +111,7 @@ h1{
     background-color: white;
     padding: 0 10px;
     width: 95%;
-    margin: 0 auto;
+    margin: 2.7% auto;
 }
 h2{
     font-size: 30px;
