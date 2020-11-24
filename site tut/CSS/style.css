@@ -94,7 +94,7 @@ h1{
     color: #e6007f;
     font-size: 40px;
 }
-.photo{
+.num1{
     width: 20%;
     float: right;
     height: 300px;
@@ -102,7 +102,7 @@ h1{
     margin-top: 0%;
     margin-bottom: 20px;
 }
-.photo2{
+.num2{
     width: 40%;
     float: left;
     height: 300px;
