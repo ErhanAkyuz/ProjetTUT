@@ -97,7 +97,6 @@ h1{
 }
 .photo{
     width: 20%;
-    border: 1px solid;
     float: right;
     height: 300px;
     margin: 0 50px;
@@ -383,6 +382,10 @@ body {
     width: 50%;
     position: fixed;
     top: 0px;
-    left: 2%;
     z-index: 999;
+}
+button{
+    background-color :  #e6007f;
+    color : white;
+    padding : 6px 10px;
 }
