@@ -283,13 +283,14 @@ body {
 /* Barre de progression en haut de la page, gérée par le script.js */
 #progress {
     background-color: #e6007f;
-    height: 3px;
+    height: 4px;
     width: 50%;
     position: fixed;
     top: 0px;
     z-index: 999;
 }
 button{
+    width: 140px;
     background-color :  #e6007f;
     color : white;
     padding : 6px 10px;
