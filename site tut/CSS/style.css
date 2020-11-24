@@ -76,16 +76,6 @@ nav{
 .theme{
     align-items: flex-end;
 }
-#corps{
-    background-color: white;
-    padding: 0 10px;
-    width: 95%;
-    margin: 2.5% auto;
-    height: auto;
-    grid-template:95%;
-    display:grid;
-
-}
 .sous-titre {
     display: flex;
     justify-content: center;
@@ -98,6 +88,16 @@ nav{
 h1{
     color: #e6007f;
     font-size: 40px;
+}
+/* DEBUT DE LA GRILLE */
+#corps{
+    background-color: white;
+    padding: 0 10px;
+    width: 95%;
+    margin: 2.5% auto;
+    height: auto;
+    grid-template:95%;
+    display:grid;
 }
 .num1{
     width: 20%;
@@ -130,6 +130,7 @@ h1{
     border: 1px solid;
     grid-row : 2;
     grid-column: 2/4;
+/* FIN DE LA GRILLE */
 }
 .logo_suite{
     height: 27px;
