@@ -22,9 +22,9 @@ nav{
 }
 #entete{
     display: flex;
-    width: 100%;
+    width: 101%;
     background-color: #A2A1A1;
-    margin: 2.7%;
+    margin: 2%;
     margin-bottom: 2%;
 }
 .logo{
@@ -49,14 +49,13 @@ nav{
 
 .menu{
     display: flex;
-    width: 100%;
+    width: 96%;
     background-color: #A2A1A1;
-    margin: 2.7%;
-    margin-bottom: 2%;
+    margin: 2%;
     align-items: center;
-    position: sticky;
     position: -webkit-sticky;
-    top:0px;
+    position: sticky;
+    top: 0px;
 }
 .menu .home{
     font-size: 50px;
@@ -97,11 +96,12 @@ h1{
     font-size: 40px;
 }
 .photo{
-    width: 35%;
+    width: 20%;
+    border: 1px solid;
     float: right;
     height: 300px;
-    margin: 0 25px;
-    margin-bottom: 10px;
+    margin: 0 50px;
+    margin-bottom: 20px;
 }
 .logo_suite{
     height: 27px;
@@ -250,7 +250,7 @@ body {
     text-align: left;
     background-color: #fff;
 }
-.products_main_box1, .products_main_box2, .products_main_box3, .products_main_box4, .products_main_box5 {
+/*.products_main_box1, .products_main_box2, .products_main_box3, .products_main_box4, .products_main_box5 {
     margin-top: 40px;
     display: block;
     float: left;
@@ -376,3 +376,13 @@ body {
     box-shadow:0 0 30px rgba(22,23,25,.3)}@media all and (max-width:767px)
 .et_pb_scroll_top.et-pb-icon{bottom:15px}
 .et_pb_scroll_top:before{content:url(https://mk0divicommunite7joq.kinstacdn.com/wp-content/uploads/2018/05/DC-fusee_animee-60x60px.gif)}
+*/
+#progress {
+    background-color: #e6007f;
+    height: 3px;
+    width: 50%;
+    position: fixed;
+    top: 0px;
+    left: 2%;
+    z-index: 999;
+}
