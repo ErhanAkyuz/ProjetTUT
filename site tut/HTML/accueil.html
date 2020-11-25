@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html>z
 <html lang="fr">
   <head>
     <meta charset="utf-8">
@@ -6,7 +6,7 @@
     <link rel="stylesheet" type="text/css" href="../CSS/style.css" media="all" />
     <link rel="stylesheet" type="text/css" href="../CSS/grille_accueil.css" media="all" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <link rel="icon" href="../img/pikachoux.PNG" type="image/x-icon">
+    <link rel="icon" href="../img/pikachoux.png" type="image/x-icon">
     <script src="../JAVASCRIPT/script.js"></script>
   </head>
 
@@ -40,8 +40,14 @@
                     Ce handicap touche plus de 80% des handicapés français et tocuhera 1/3 de la population dans sa vie. Ses manifestations sont nombreuses, 
                     allant de <strong>phobies</strong>,<strong>traumatismes</strong>,<strong>troubles mentaux</strong> et <strong>encore dépressions</strong>...</p>
                     <!-- button -- onclick="window.location.href = 'HandiPsy.html'" id="texteplus">En apprendre plus</button -->
-                    <button id="span_button" type="button" onclick="toggle_text();">En apprendre plus</button>
-                    <span id="span_txt"></span>
+                    <!-- input type="button" accesskey="s" id="span_button" onclick="toggle_text();" value="Afficher plus"   -->
+                    <p id='tog'>
+                        Il est actuellement
+                        <span id='heure'></span>
+                    </p>
+                    <button id='bouton'>
+                        Cacher / Afficher l 'heure
+                    </button>
             </article>
 
             <img class="num3" src="../img/handicappsychique2.png" alt="ezManager" width="auto" height="200" />

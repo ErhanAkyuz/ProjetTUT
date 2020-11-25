@@ -4,8 +4,13 @@
 body {
     position: relative;
     margin: 0px;
-    padding: 0px;
-    background-image: linear-gradient(0.40turn,#00a0b0, #00709c);
+    padding: auto;
+    background-image: url("../img/labo.jpg");
+    height:500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
 }
 header{
     position: relative;
@@ -34,7 +39,7 @@ header{
 }
 nav{
     top: 0px;
-    z-index:4;
+    z-index:12;
     width: 95%;
 }
 .menu{
@@ -240,36 +245,34 @@ body {
     text-align: left;
     background-color: #fff;
 }
-button{
+/*
+input{
     width: 140px;
     background-color :  #e6007f;
     color : white;
     margin-left:3%;
     margin-right:auto;
-}
+} */
 /* Barre de progression en haut de la page, gérée par le script.js */
 #progress {
     background-color: #e6007f;
     height: 4px;
-    width: 50%;
+    width: 100%;
     position: fixed;
     top: 0px;
     z-index: 999;
-}
-.txt_handi {
-    margin-left: 10px;
 }
 #span_txt {
     display: hidden;
 }
 #span_button {
-    z-index: 99;
+    z-index: 4;
 }
 li {
     display: list-item;
     text-align: -webkit-match-parent;
     list-style-type: "\1F449"; 
 }
-.menu.isSticky{
+.menusticky{
     border-radius:0px;
 }
