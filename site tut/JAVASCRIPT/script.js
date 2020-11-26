@@ -55,10 +55,26 @@ function horloge() {
 document.addEventListener('DOMContentLoaded', function () {
 	let cache = document.getElementById('bouton');
 	cache.addEventListener('click', cacheHorloge);
-	document.getElementById('tog').style.display = 'block';
+	document.getElementById('tog1').style.display = 'block';
 
 	function cacheHorloge() {
-		let para = document.getElementById('tog');
+		let para = document.getElementById('tog1');
+		if (para.style.display == 'block') {
+			para.style.display = 'none';
+		} else {
+			para.style.display = 'block';
+		}
+	}
+});
+
+/* TEST D'UN AUTRE BOUTON*/                     /* POUR CREER UN NOUVEAU BOUTON IL SUFFIT DE CHANGER LES ID DANS LE HTML ET LE JS*/
+document.addEventListener('DOMContentLoaded', function () {
+	let cache = document.getElementById('bouton2'/*ICI*/);
+	cache.addEventListener('click', cacheHorloge);
+	document.getElementById('tog2'/*ICI*/).style.display = 'block';
+
+	function cacheHorloge() {
+		let para = document.getElementById('tog2'/*ET ICI*/);
 		if (para.style.display == 'block') {
 			para.style.display = 'none';
 		} else {

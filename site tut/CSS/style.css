@@ -39,7 +39,7 @@ header{
 }
 nav{
     top: 0px;
-    z-index:12;
+    z-index:9000;
     width: 95%;
 }
 .menu{
@@ -51,7 +51,7 @@ nav{
     align-items: center;
     position: -webkit-sticky; /*pour Safari */
     position: sticky;
-    top: -1px;
+    top: 0px;
 }
 .menu .home{
     font-size: 50px;
