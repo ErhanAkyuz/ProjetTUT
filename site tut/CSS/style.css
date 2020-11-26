@@ -5,7 +5,7 @@ body {
     position: relative;
     margin: 0px;
     padding: auto;
-    background-image: url("../img/labo.jpg");
+    background-image: url("../img/brain.jpg");
     height:500px;
     background-attachment: fixed;
     background-position: center;
@@ -98,24 +98,11 @@ h1{
 }
 h2{
     color: #e6007f;
-    font-size: 40px;
+    font-size: 30px;
 }
 .logo_suite{
     height: 27px;
     z-index: 1;
-}
-#part_two{
-    background-color: white;
-    padding: 0 10px;
-    width: 95%;
-    margin: 2.7% auto;
-}
-footer {
-    display: flex;
-    justify-content: center;
-    padding: 5px;
-    background-color: #383838;
-    color: White;
 }
 .textFooter{
     font-size: 25px;
@@ -171,9 +158,6 @@ footer {
     color: black;
     position: absolute;
     right: 5%;
-}
-footer{
-    margin-top: 30px;
 }
 .avatar{
     width: 18%;
