@@ -55,14 +55,16 @@ function horloge() {
 document.addEventListener('DOMContentLoaded', function () {
 	let cache = document.getElementById('bouton');
 	cache.addEventListener('click', cacheHorloge);
-	document.getElementById('tog1').style.display = 'block';
+	document.getElementById('tog1').style.display = 'none';
 
 	function cacheHorloge() {
 		let para = document.getElementById('tog1');
-		if (para.style.display == 'block') {
-			para.style.display = 'none';
+		if (para.style.display == 'none') {
+      para.style.display = 'block';
+      document.getElementById('bouton').innerHTML = 'Voir moins';
 		} else {
-			para.style.display = 'block';
+      para.style.display = 'none';
+      document.getElementById('bouton').innerHTML = 'Voir plus';
 		}
 	}
 });
@@ -71,14 +73,16 @@ document.addEventListener('DOMContentLoaded', function () {
 document.addEventListener('DOMContentLoaded', function () {
 	let cache = document.getElementById('bouton2'/*ICI*/);
 	cache.addEventListener('click', cacheHorloge);
-	document.getElementById('tog2'/*ICI*/).style.display = 'block';
+	document.getElementById('tog2'/*ICI*/).style.display = 'none';
 
 	function cacheHorloge() {
 		let para = document.getElementById('tog2'/*ET ICI*/);
-		if (para.style.display == 'block') {
-			para.style.display = 'none';
+		if (para.style.display == 'none') {
+      para.style.display = 'block';
+      document.getElementById('bouton2').innerHTML = 'Voir moins';
 		} else {
-			para.style.display = 'block';
+      para.style.display = 'none';
+      document.getElementById('bouton2').innerHTML = 'Voir plus';
 		}
 	}
 });
@@ -88,5 +92,5 @@ document.addEventListener('DOMContentLoaded', function () {
 // ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ //
 
 // -------- Savoir si un élément est sticky -------- //
-//#==================___EN COURS___==================// 2% t nul
+//#==================___EN COURS___==================// 2%
 //to check when element get's position sticky
