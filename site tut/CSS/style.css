@@ -116,15 +116,6 @@ h2{
     padding: 20px;
     align-self: center;
 }
-.videoyt{
-    position: relative;
-    top: -170px;
-    margin-bottom: -170px;
-    z-index: 0;
-}
-.ptibat{
-    width: 100%;
-}
 #conteneur
 {
     display: flex;
@@ -245,12 +236,6 @@ input{
     position: fixed;
     top: 0px;
     z-index: 999;
-}
-#span_txt {
-    display: hidden;
-}
-#span_button {
-    z-index: 4;
 }
 li {
     display: list-item;
