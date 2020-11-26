@@ -42,17 +42,6 @@ nav{
     z-index:999;
     width: 95%;
 }
-.menu{
-    border-radius:20px;
-    display: flex;
-    width: 96%;
-    background-color:#777777;
-    margin: 2%;
-    align-items: center;
-    position: -webkit-sticky; /*pour Safari */
-    position: sticky;
-    top: 0px;
-}
 .menu .home{
     font-size: 50px;
     padding: 0 15px;
