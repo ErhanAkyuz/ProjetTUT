@@ -83,6 +83,25 @@ document.addEventListener('DOMContentLoaded', function () {
 	}
 });
 
+
+
+document.addEventListener('DOMContentLoaded', function () {
+	let cache = document.getElementById('bouton3'/*ICI*/);
+	cache.addEventListener('click', cacheTexte);
+	document.getElementById('tog3'/*ICI*/).style.display = 'none';
+
+	function cacheTexte() {
+		let para = document.getElementById('tog3'/*ET ICI*/);
+		if (para.style.display == 'none') {
+      para.style.display = 'block';
+      document.getElementById('bouton3').innerHTML = "Réduire l'onglet";
+		} else {
+      para.style.display = 'none';
+      document.getElementById('bouton3').innerHTML = "La VR c'est quoi ?";
+		}
+	}
+});
+
 // ---------------------- Fin ---------------------- //
 
 // ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ //
