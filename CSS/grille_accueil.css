@@ -68,9 +68,11 @@
 }
 .texteplus{
     margin-left:auto;
+    margin-right: auto;
 }
 .article{
     margin-left:3%;
+    margin-right:3%;
     margin-top:2%;
 }
 .articlebutton{
