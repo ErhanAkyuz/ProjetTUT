@@ -34,6 +34,11 @@ header{
     height: calc(145px);
     margin: 10px;    
 }
+.logoflat{
+    margin-left:2%;
+    float :left;
+    display:relative;
+}
 .text_header {
     margin-top:auto;
     margin-bottom: auto;
@@ -145,7 +150,8 @@ h2{
 .group {
     display: list-item;
     text-align: -webkit-match-parent;
-    list-style-type: "\1F449"; 
+    list-style-type: "\1F449";
+    margin-left: 4%;
 }
 .menusticky{
     border-radius:0px;

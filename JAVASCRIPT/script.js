@@ -28,11 +28,11 @@ window.onload = () => {
         document.getElementById("progress").style.width = barre+"px"
     })
 }
-// ---------------------- Fin ---------------------- //
+// ----------------------- Fin -----------------------  //
 
-// ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ //
+// ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~  //
 
-// ---------- Bouton qui affiche le texte ---------- //
+// ---------- Boutons qui affichent le texte ---------- //
 
 document.addEventListener('DOMContentLoaded', function () {
 	let cache = document.getElementById('bouton');
@@ -84,6 +84,25 @@ document.addEventListener('DOMContentLoaded', function () {
 		} else {
       para.style.display = 'none';
       document.getElementById('bouton3').innerHTML = "La VR c'est quoi ?";
+		}
+	}
+});
+
+
+
+document.addEventListener('DOMContentLoaded', function () {
+	let cache = document.getElementById('bouton4'/*ICI*/);
+	cache.addEventListener('click', cacheTexte);
+	document.getElementById('tog4'/*ICI*/).style.display = 'none';
+
+	function cacheTexte() {
+		let para = document.getElementById('tog4'/*ET ICI*/);
+		if (para.style.display == 'none') {
+      para.style.display = 'block';
+      document.getElementById('bouton4').innerHTML = 'Voir moins';
+		} else {
+      para.style.display = 'none';
+      document.getElementById('bouton4').innerHTML = 'Voir plus';
 		}
 	}
 });
