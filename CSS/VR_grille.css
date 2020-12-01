@@ -71,7 +71,9 @@
 }
 .article{
     margin-left:3%;
+    margin-right:3%;
     margin-top:2%;
+    text-align:justify;
 }
 .articlebutton{
     margin-bottom:2%;
