@@ -82,6 +82,12 @@
     color:white;
     padding:5px;
     border-radius:45px;
+    transition-duration: 0.5s;
+}
+.articlebutton:hover{
+    background-color:#00a0b0;
+
+
 }
 .num7{
     border: 5px solid;
@@ -101,9 +107,10 @@ footer{
     grid-row : 8;
     grid-column: 1/4;
     text-align:center;
-    padding:2px;
     background-color: #383838;
     color: White;
+    border-top-right-radius:12px;
+    border-top-left-radius:12px;
 }
 .menu{
     border-radius:20px;
@@ -116,4 +123,16 @@ footer{
     top: 0px;
     grid-row:1;
     grid-column: 1/4;
+}
+.butli{
+    margin-bottom:2%;
+    margin-left:2%;
+    background-color: #00a0b0;
+    color:white;
+    padding:4px;
+    border-radius: 10px;
+    transition-duration: 0.5s;
+}
+.butli:hover{
+    background-color:#e6007f;
 }
