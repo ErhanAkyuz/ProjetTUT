@@ -1,5 +1,12 @@
+body {
+    padding: 2%;
+}
+
 table,td {
     border: 1px solid #333;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
 }
 
 thead,tfoot {
