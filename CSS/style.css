@@ -1,13 +1,10 @@
 *{
     font-family: Arial, Verdana;
 }
-html{
-    /*overflow: hidden;*/
-}
+
 body {
     position: relative;
     margin: 0px;
-    padding: auto;
     background-image: url("../img/brain.jpg");
     height:1000px;
     background-attachment: fixed;
@@ -37,7 +34,6 @@ header{
 .logoflat{
     margin-left:2%;
     float :left;
-    display:relative;
 }
 .text_header {
     margin-top:auto;
@@ -158,5 +154,8 @@ h2{
 }
 .lib{
     list-style: circle;
-    text-align: -webkit-match-parent;
+}
+.titre_art {
+    color: #00a0b0;
+    margin-bottom: 10%;
 }

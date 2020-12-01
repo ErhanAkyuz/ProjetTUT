@@ -107,11 +107,12 @@
 footer{
     grid-row : 8;
     grid-column: 1/4;
-    text-align:center;
     background-color: #383838;
     color: White;
     border-top-right-radius:12px;
     border-top-left-radius:12px;
+    padding: 1%;
+    display: inline;
 }
 .menu{
     border-radius:20px;
