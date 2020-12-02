@@ -107,6 +107,22 @@ document.addEventListener('DOMContentLoaded', function () {
 	}
 });
 
+document.addEventListener('DOMContentLoaded', function () {
+	let cache = document.getElementById('bouton5'/*ICI*/);
+	cache.addEventListener('click', cacheTexte);
+	document.getElementById('tog5'/*ICI*/).style.display = 'none';
+
+	function cacheTexte() {
+		let para = document.getElementById('tog5'/*ET ICI*/);
+		if (para.style.display == 'none') {
+      para.style.display = 'block';
+      document.getElementById('bouton5').innerHTML = "Réduire l'onglet";
+		} else {
+      para.style.display = 'none';
+      document.getElementById('bouton5').innerHTML = "Quelques exemples ?";
+		}
+	}
+});
 // ---------------------- Fin ---------------------- //
 
 // ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ //
