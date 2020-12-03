@@ -91,14 +91,13 @@
 
 }
 footer{
-    grid-row : 8;
-    grid-column: 1/4;
+    grid-column:1/4;
+    grid-row:5;
     background-color: #383838;
     color: White;
     border-top-right-radius:12px;
     border-top-left-radius:12px;
     padding: 1%;
-    display: inline;
 }
 .menu{
     border-radius:20px;
@@ -124,3 +123,4 @@ footer{
 .butli:hover{
     background-color:#e6007f;
 }
+

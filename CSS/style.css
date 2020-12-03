@@ -104,11 +104,6 @@ h2{
     height: 27px;
     z-index: 1;
 }
-.textFooter{
-    font-size: 17px;
-    float:left;
-    padding-left: 2%;
-}
 .lien{
     text-decoration: none;
     color: black;
@@ -154,7 +149,22 @@ h2{
 strong{
     font-weight: bold;
 }
-.validator{
-    float: right;
-    margin-right: 2%;
+
+#laval_full{
+    border-radius:20px;
 }
+#laval_info{
+    border:white solid 2px;
+    border-radius:20px;
+}
+#hmtljscss{
+    border:0;
+}
+.nav_images img{
+    margin-left:2%;
+    float:right;
+}
+.textFooter{
+    float:left;
+}
+
