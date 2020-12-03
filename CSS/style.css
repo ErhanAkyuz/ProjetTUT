@@ -1,7 +1,10 @@
 *{
     font-family: Arial, Verdana;
 }
+*::selection{
+    background-color: #e6007f81;
 
+}
 body {
     position: relative;
     margin: 0px;
@@ -66,13 +69,17 @@ nav{
 .menu .navigation li :hover{
     color: #e6007f;
 }
+.menu .navigation li ::selection{
+    color: white;
+}
 .navigation{
     position: relative; 
 }
 .sommaire{
     color: white;
-    font-size: 30px;
+    font-size: 26px;
     text-align: center;
+    text-decoration: none;
 }
 .theme{
     align-items: flex-end;
@@ -99,6 +106,8 @@ h2{
 }
 .textFooter{
     font-size: 17px;
+    float:left;
+    padding-left: 2%;
 }
 .lien{
     text-decoration: none;
@@ -116,24 +125,6 @@ h2{
 .clear {
     position: relative;
 }
-.utility_boxs{
-	position:absolute; 
-	top:350px; left:150px;
-	width:600px; height:100px;}
-.utility_box{
-	color:#ffffff;
-	font-weight:bold;
-	float:left;
-	margin:10px 25px;}
-.utility_box:hover{
-	color:#ff8c00;
-	font-weight:bold;
-    text-decoration:underline;
-}
-.liste_produit{
-    font-size: 7em;
-    font-weight: bold;
-}
 /* Barre de progression en haut de la page, gérée par le script.js */
 #progress {
     background-color: #e6007f;
@@ -148,6 +139,7 @@ h2{
     text-align: -webkit-match-parent;
     list-style-type: "\1F449";
     margin-left: 4%;
+    margin-right: 2%;
 }
 .menusticky{
     border-radius:0px;
@@ -158,4 +150,11 @@ h2{
 .titre_art {
     color: #00a0b0;
     margin-bottom: 10%;
+}
+strong{
+    font-weight: bold;
+}
+.validator{
+    float: right;
+    margin-right: 2%;
 }
