@@ -1,0 +1,23 @@
+body {
+    margin:0%;
+    padding:0%;
+}
+h1 {
+    text-align: center;
+    font-size: 70px;
+}
+img {
+    width: 100%;
+}
+#slide1 {
+    margin:0%;
+    padding:0%;
+    background: url(../img/tmp/jojofight.png) center 0 no-repeat fixed;
+    width: 100%;
+}
+ 
+#slide2 {
+    margin:0%;
+    padding:0%;
+    background: url(../img/tmp/jojopose.jpg) center 0 no-repeat fixed;
+}
