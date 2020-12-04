@@ -5,15 +5,12 @@
     background-color: #e6007f81;
 
 }
-body {
-    position: relative;
-    margin: 0px;
+#bodyslide {
     background-image: url("../img/brain.jpg");
-    height:1000px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
 }
 header{
     position: relative;

@@ -1,0 +1,35 @@
+body {
+    margin:0%;
+    padding:0%;
+}
+h1 {
+    text-align: center;
+    font-size: 70px;
+}
+img {
+    width: 100%;
+}
+section{
+    font-size: 30px;
+}
+#slide1 {
+    text-align: center;
+    padding-top: 15px;
+    background-image: url("../img/tmp/jojofight.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 50px; 
+ }
+ 
+#slide2 {
+    text-align: center;
+    padding-top: 15px;
+    background-image: url("../img/tmp/jojopose.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 50px;
+ }
