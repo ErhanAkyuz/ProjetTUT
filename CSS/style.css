@@ -167,4 +167,7 @@ strong{
 .textFooter{
     float:left;
 }
+.hidden{
+    display: none;
+}
 
