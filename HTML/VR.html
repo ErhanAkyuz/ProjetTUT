@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="utf-8">
-    <title>Handicap psychique</title>
-    <link rel="stylesheet" type="text/css" href="../CSS/style.css" media="all" />
-    <link rel="stylesheet" type="text/css" href="../CSS/VR_grille.css" media="all" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <link rel="icon" href="../img/pikachoux.ico" type="image/x-icon">
-    <script src="../JAVASCRIPT/script.js"></script>
-  </head>
+    <head>
+        <meta charset="utf-8">
+        <title>Handicap psychique</title>
+        <link rel="stylesheet" type="text/css" href="../CSS/style.css" media="all" />
+        <link rel="stylesheet" type="text/css" href="../CSS/VR_grille.css" media="all" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <link rel="icon" href="../img/pikachoux.ico" type="image/x-icon">
+        <script type="text/javascript" src="../JAVASCRIPT/jquery.parallax.js"></script>
+        <script src="../JAVASCRIPT/script.js"></script>
+      </head>
 
-  <body>
+  <body id="bodyslide">
 
     <header>
         <h1 id="entete">
@@ -26,7 +27,7 @@
         <nav class="menu">
             <a href="../index.html" class="lien"><i class="fa fa-home home" aria-hidden="true"></i></a>
             <ul class="navigation">
-                    <li><a href="#Présentation" class="sommaire">Présentation<span class="theme" ></span></a></li>
+                <li><a href="../HTML/Presentation.html" class="sommaire">Présentation<span class="theme" ></span></a></li>
                     <li><a href="../HTML/Assistants.html" class="sommaire">Assistants  Cognitifs<span class="theme" ></span></a></li>
                     <li><a href="../HTML/JV.html" class="sommaire">Jeux vidéos <span class="theme" ></span></a></li>
                     <li><a href="../HTML/VR.html" class="sommaire">Réalité Virtuelle <span class="theme" ></span></a></li>
@@ -59,7 +60,7 @@
                 </p>
                 </section>
                 <!-- Le bouton "voir plus" -->
-                <button id='bouton3'class="articlebutton" accesskey="s" onclick="toggleDisplay('tog3')">
+                <button id='bouton3'class="articlebutton" accesskey="s" onclick="toggleDisplay('tog3','bouton3',{hide:`La VR c'est quoi`, display:`voir moins`})">
                     La VR c'est quoi ?
                 </button>
             </article>
@@ -67,11 +68,11 @@
             <img class="num3" src="../img/Virtual reality_ani.svg" alt="ezManager"  height="250" />
                     
                     
-            <article class="num4" class="hidden">
+            <article class="num4">
                     <h2 class="article">Son utilisation</h2>
                     <p class="article">Le handicap Psychique est comme dit avant, dû à des pathologies multiples. La réalité virtuelle permet de compenser voir de guérir les troubles <strong>sociaux</strong> ou bien des <strong>phobies</strong>.</p>
                     <!-- Section cachée par le bouton -->
-                    <section id="tog5">
+                    <section id="tog5" class="hidden">
                         <p class="article">
                             <strong>Les phobies </strong>telles que l'arachnophobie, l'agoraphobie, ou le vertige, peuvent être guéries en plongeant la personne au plus profond de son angoisse.
                             Cette thérapie à été maintes fois vérifiée, et est très utilisée dans les instituts de soins.<br>
@@ -84,7 +85,7 @@
                         </p>
                         </section>
                         <!-- Le bouton "voir plus" -->
-                        <button id='bouton5'class="articlebutton" accesskey="s" onclick="toggleDisplay('tog5')">
+                        <button id='bouton5'class="articlebutton" accesskey="s" onclick="toggleDisplay('tog5','bouton5',{hide:`Quelques exemples ?`, display:`voir moins`})">
                             Quelques exemples ?
                         </button>
             </article>
@@ -102,6 +103,26 @@
             <div class="video">
                 <iframe class="videoin" width="500" height="250" src="https://www.youtube.com/embed/KeSJzTHz9lg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
+            <article class="num6">
+                <h2 class="article">Quels sont les avantages ?</h2>
+                <p><ul>
+                    <li class="group">Il n’est pas nécessaire de se déplacer sur le lieu de la phobie</li>
+                    <li class="group">Il est facilement possible de détecter si la thérapie fonctionne, puisque les patients réceptifs vont developper des "cybermalaises"</li>
+                    <li class="group">Le traitement se voit être plus ludique puisque le patient à l'impression de "jouer à un jeu"</li>
+                    <li class="group">Il sait aussi qu'il ne risque rien durant la séance, puisqu'il suffit de retirer le casque pour revenir à la réalité</li>
+                </ul></p>
+
+            </article>
+            <article class="num7">
+                <h2 class="article">Quels sont les inconvénients ?</h2>
+                <p><ul>
+                    <li class="group"></li>
+                    <li class="group"></li>
+                    <li class="group"></li>
+                    <li class="group"></li>
+                </ul></p>
+
+            </article>
             <a href="#hautdepage"><span class="et_pb_scroll_top et-pb-icon et-visible" style="display:inline;"></span></a>
             <footer>
                 <p class="textFooter">
@@ -109,9 +130,9 @@
                 </p>
                 <div class="nav_images">
                     
-                        <img id="htmljscss" src="./img/html5css3js.png" width="115" height="55" alt="HTML5 - JAVASCRIPT - CSS3" />
-                        <a href="http://iut-laval.univ-lemans.fr/fr/index.html" target="_blank"><img id="laval_full"  src="./img/iut_laval_full.png" width="196" height="55" alt="Logo IUT de Laval"/></a>
-                        <a href="http://iut-laval.univ-lemans.fr/fr/departements/informatique.html" target="_blank"><img id="laval_info" width="51" height="51" src="./img/iut_laval_info.png" alt="Logo département informatique de l'IUT de Laval" /></a>
+                        <img id="htmljscss" src="../img/html5css3js.png" width="115" height="55" alt="HTML5 - JAVASCRIPT - CSS3" />
+                        <a href="http://iut-laval.univ-lemans.fr/fr/index.html" target="_blank"><img id="laval_full"  src="../img/iut_laval_full.png" width="196" height="55" alt="Logo IUT de Laval"/></a>
+                        <a href="http://iut-laval.univ-lemans.fr/fr/departements/informatique.html" target="_blank"><img id="laval_info" width="51" height="51" src="../img/iut_laval_info.png" alt="Logo département informatique de l'IUT de Laval" /></a>
                 </div>
             </footer>
         </div>
