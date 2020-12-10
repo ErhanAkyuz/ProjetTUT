@@ -27,6 +27,21 @@ header{
     margin-bottom: 2%;
     
 }
+.articlebutton{
+    margin-bottom:2%;
+    margin-left:2%;
+    background-color: #e6007f;
+    color:white;
+    padding:5px;
+    border-radius:45px;
+    transition-duration: 0.5s;
+    outline:none;
+}
+.articlebutton:hover{
+    background-color:#00a0b0;
+
+
+}
 a, button{
     cursor: pointer;
 }

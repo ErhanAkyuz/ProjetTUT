@@ -33,9 +33,11 @@ window.onload = () => {
 // ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~  //
 
 // ---------- Boutons qui affichent le texte ---------- //
-function toggleDisplay(id){
+function toggleDisplay(id, buttonid, text){
     const element = document.getElementById(id);
-    if(!element) return;
+    const button = document.getElementById(buttonid);
+    if(!element || !button) return;
+    element.classList.toString().includes("hidden") ? button.innerHTML = text ? text.display : "Voir moins" : button.innerHTML = text ? text.hide :"Voir plus";
     element.classList.toString().includes("hidden") ? element.classList.remove("hidden") : element.classList.add("hidden");
 }
 

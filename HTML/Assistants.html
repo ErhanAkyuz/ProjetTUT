@@ -26,7 +26,7 @@
             <nav class="menu">
                 <a href="../index.html" class="lien"><i class="fa fa-home home" aria-hidden="true"></i></a>
                 <ul class="navigation">
-                        <li><a href="#Présentation" class="sommaire">Présentation<span class="theme" ></span></a></li>
+                    <li><a href="../HTML/Presentation.html" class="sommaire">Présentation<span class="theme" ></span></a></li>
                         <li><a href="../HTML/Assistants.html" class="sommaire">Assistants  Cognitifs<span class="theme" ></span></a></li>
                         <li><a href="../HTML/JV.html" class="sommaire">Jeux vidéos <span class="theme" ></span></a></li>
                         <li><a href="../HTML/VR.html" class="sommaire">Réalité Virtuelle <span class="theme" ></span></a></li>
@@ -54,7 +54,7 @@
                 </p>
                 </section>
                 <!-- Le bouton "voir plus" -->
-                <button id='bouton4'class="articlebutton" accesskey="s" onclick="toggleDisplay('tog4')">
+                <button id='bouton4'class="articlebutton" accesskey="s" onclick="toggleDisplay('tog4','bouton4',{hide:`Les ACN c'est quoi ?`, display:`voir moins`})">
                     Les ACN c'est quoi ?
                 </button>
             </article>
@@ -66,7 +66,7 @@
                     <h2 class="article">Application</h2>
                     <p class="article">Les liens ci-dessous permettent de télecharger les application de Sollae. Ces application permettant de mieux utiliser leurs produits</p>
                     <!-- Section cachée par le bouton -->
-                    <section id="tog2">
+                    <section id="tog2" class="hidden">
                         <p class="article">
                             <strong>L'handicap psychique</strong> est la conséquence de maladies mentales (à ne pas confondre avec le handicap mental) entrainant un déficit relationnel, des
                             difficultés de concentration, une grande variabilité dans la possibilité d'utilisation des capacités alors que la personne garde des facultés intellectuelles dites normales.
@@ -82,7 +82,7 @@
                         </p>
                         </section>
                         <!-- Le bouton "voir plus" -->
-                        <button id='bouton2'class="articlebutton" accesskey="s">
+                        <button id='bouton2'class="articlebutton" accesskey="s" onclick="toggleDisplay('tog2', 'bouton2')">
                             Voir plus
                         </button>
             </article>

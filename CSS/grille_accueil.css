@@ -76,20 +76,7 @@
     margin-top:2%;
     text-align:justify;
 }
-.articlebutton{
-    margin-bottom:2%;
-    margin-left:2%;
-    background-color: #e6007f;
-    color:white;
-    padding:5px;
-    border-radius:45px;
-    transition-duration: 0.5s;
-}
-.articlebutton:hover{
-    background-color:#00a0b0;
 
-
-}
 footer{
     grid-column:1/4;
     grid-row:5;
