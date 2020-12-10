@@ -7,7 +7,7 @@
         <link rel="stylesheet" type="text/css" href="../CSS/VR_grille.css" media="all" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
         <link rel="icon" href="../img/pikachoux.ico" type="image/x-icon">
-        <script type="text/javascript" src="../JAVASCRIPT/jquery.parallax.js"></script>
+        <script  src="../JAVASCRIPT/jquery.parallax.js"></script>
         <script src="../JAVASCRIPT/script.js"></script>
       </head>
 
@@ -44,28 +44,29 @@
                 </p>
                 <!-- Section cachée par le bouton -->
                 <section id="tog3" class="hidden">
-                <p class="article">
-                    <strong>La Réalité Virtuelle</strong> est une technologie née en 2014 qui tire ses innovations des technologies de réalité augmentée des années 1950 à 2000.
-                            Ses premiers usages furent à but militaire, et rendront possible les simulateurs de vol, de conduite et de tir possible des années plus tard (1970).
-                            Ensuite, les sociétés dites de "divertissement" vont s'intéresser à cet espace qui existe et n'existe pas à la fois, pour développer des expériences, et des situations impossible à vivre normalement
-                            hors de chez soi. 
-                            En <strong>1990</strong> La réalité virtuelle est arrivé dans un domaine important, celui du jeu vidéo, l'idée était ici de proposer une expérience ludique, basée sur les mouvement du casque et sur des capteurs infrarouges
-                            C'est en <strong>2016</strong> que l'avènement de la Réalité Virtuelle se fera, puisque cette année, beaucoup de modèles seront distribués au grand public dont ceux-ci :
-                            <ul>
+                    <p class="article">
+                        <strong>La Réalité Virtuelle</strong> est une technologie née en 2014 qui tire ses innovations des technologies de réalité augmentée des années 1950 à 2000.
+                                Ses premiers usages furent à but militaire, et rendront possible les simulateurs de vol, de conduite et de tir possible des années plus tard (1970).
+                                Ensuite, les sociétés dites de "divertissement" vont s'intéresser à cet espace qui existe et n'existe pas à la fois, pour développer des expériences, et des situations impossible à vivre normalement
+                                hors de chez soi. 
+                                En <strong>1990</strong> La réalité virtuelle est arrivé dans un domaine important, celui du jeu vidéo, l'idée était ici de proposer une expérience ludique, basée sur les mouvement du casque et sur des capteurs infrarouges
+                                C'est en <strong>2016</strong> que l'avènement de la Réalité Virtuelle se fera, puisque cette année, beaucoup de modèles seront distribués au grand public dont ceux-ci :
+                            </p>
+                            <ul class="article">
                                 <li class="group">L'occulus Rift. Développé par Facebook et Occulus</li>
                                 <li class="group">Le HTC Vive. Développé par HTC</li>
                                 <li class="group">Le Playstation VR. Développé par Sony</li>
                                 <li class="group">Le Samsung Gear VR. Développé par Samsung</li>
                             </ul>
-                </p>
+                    
                 </section>
                 <!-- Le bouton "voir plus" -->
-                <button id='bouton3'class="articlebutton" accesskey="s" onclick="toggleDisplay('tog3','bouton3',{hide:`La VR c'est quoi`, display:`voir moins`})">
+                <button id='bouton3' class="articlebutton" accesskey="s" onclick="toggleDisplay('tog3','bouton3',{hide:`La VR c'est quoi`, display:`voir moins`})">
                     La VR c'est quoi ?
                 </button>
             </article>
 
-            <img class="num3" src="../img/Virtual reality_ani.svg" alt="ezManager"  height="250" />
+            <img class="num3" src="../img/Virtual_reality_ani.svg" alt="ezManager"  height="250" />
                     
                     
             <article class="num4">
@@ -85,12 +86,10 @@
                         </p>
                         </section>
                         <!-- Le bouton "voir plus" -->
-                        <button id='bouton5'class="articlebutton" accesskey="s" onclick="toggleDisplay('tog5','bouton5',{hide:`Quelques exemples ?`, display:`voir moins`})">
+                        <button id='bouton5' class="articlebutton" accesskey="s" onclick="toggleDisplay('tog5','bouton5',{hide:`Quelques exemples ?`, display:`voir moins`})">
                             Quelques exemples ?
                         </button>
             </article>
-
-            <a id="Différent_produit_Sollae"></a>
             <article class="num5">
                 <h2 class="article">Comment se faire prendre en charge ?</h2> 
                 <p class="article">La Réalité virtuelle est utilisée dans différents domaines, si vous pensez que votre situation nécessite un traitement par VR, <strong>parlez-en à votre médecin</strong>. 
@@ -103,24 +102,26 @@
             <div class="video">
                 <iframe class="videoin" width="500" height="250" src="https://www.youtube.com/embed/KeSJzTHz9lg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
-            <article class="num6">
+            <button id='boutontext' class="articlebutton boutontext" onclick="toggleDisplay('togavantage','boutontext',{hide:`Afficher les Avantages et les Inconvénients`, display:`Réduire`}),toggleDisplay('toginconvenients','boutontext',{hide:`Afficher les Avantages et les Inconvénients`, display:`Réduire`}) ">
+                Afficher les Avantages et les Inconvénients
+            </button>
+            <article class="num6 hidden" id='togavantage'>
                 <h2 class="article">Quels sont les avantages ?</h2>
-                <p><ul>
-                    <li class="group">Il n’est pas nécessaire de se déplacer sur le lieu de la phobie</li>
-                    <li class="group">Il est facilement possible de détecter si la thérapie fonctionne, puisque les patients réceptifs vont developper des "cybermalaises"</li>
-                    <li class="group">Le traitement se voit être plus ludique puisque le patient à l'impression de "jouer à un jeu"</li>
-                    <li class="group">Il sait aussi qu'il ne risque rien durant la séance, puisqu'il suffit de retirer le casque pour revenir à la réalité</li>
-                </ul></p>
+                <ul>
+                    <li class="group">Il n’est pas nécessaire de se déplacer sur le lieu de la phobie</li><br><br>
+                    <li class="group">Il est facilement possible de détecter si la thérapie fonctionne, puisque les patients réceptifs vont developper des "cybermalaises"</li><br><br>
+                    <li class="group">Le traitement se voit être plus ludique puisque le patient à l'impression de "jouer à un jeu"</li><br><br>
+                    <li class="group">Il sait aussi qu'il ne risque rien durant la séance, puisqu'il suffit de retirer le casque pour revenir à la réalité</li><br><br>
+                </ul>
 
             </article>
-            <article class="num7">
+            <article class="num7 hidden" id='toginconvenients'>
                 <h2 class="article">Quels sont les inconvénients ?</h2>
-                <p><ul>
-                    <li class="group"></li>
-                    <li class="group"></li>
-                    <li class="group"></li>
-                    <li class="group"></li>
-                </ul></p>
+                <ul>
+                    <li class="group">Cela peut-être paraître angoissant au premier abord</li><br><br>
+                    <li class="group">Certains patients peuvent ne pas réagir très bien aux soins</li><br><br>
+                    <li class="group">L'oreille interne et la vision peut se voir troubler par l'utilisation du casque, puisqu'il vous fait vivre "dans le corps d'autrui"</li><br><br>
+                </ul>
 
             </article>
             <a href="#hautdepage"><span class="et_pb_scroll_top et-pb-icon et-visible" style="display:inline;"></span></a>
