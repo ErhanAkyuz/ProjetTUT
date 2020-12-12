@@ -1,0 +1,19 @@
+footer{
+    grid-row : -1;
+    grid-column: 1/4;
+    text-align:center;
+    padding:2px;
+    background-color: #383838;
+    color: White;
+}
+#corps{
+    margin-right: 2%;
+	margin-left: 2%;
+	display: grid;
+    grid-template-columns:  repeat(3, auto);
+    grid-template-rows:  repeat(5, auto);
+    grid-column-gap: 3%;
+    grid-row-gap : 5%;
+    z-index:1;
+	
+}

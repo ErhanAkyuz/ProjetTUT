@@ -39,8 +39,6 @@ header{
 }
 .articlebutton:hover{
     background-color:#00a0b0;
-
-
 }
 a, button{
     cursor: pointer;
@@ -115,6 +113,11 @@ h2{
     color: #e6007f;
     font-size: 30px;
 }
+.text_header::selection,
+.sous-titre::selection,
+h2::selection{
+    background-color: rgba(255, 255, 255, 0.506);
+}
 .logo_suite{
     height: 27px;
     z-index: 1;
@@ -137,11 +140,12 @@ h2{
 }
 /* Barre de progression en haut de la page, gérée par le script.js */
 #progress {
-    background-color: #e6007f;
+    background-image: linear-gradient(0.75turn, #00c7da, #e6007f);
     height: 4px;
     width: 100%;
     position: fixed;
     top: 0px;
+    left: 0px;
     z-index: 1000;
 }
 .group {
