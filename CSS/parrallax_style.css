@@ -1,6 +1,8 @@
 body {
-    margin:0%;
     padding:0%;
+    background-color:black;
+    margin-left:2%;
+    margin-right:2%;
 }
 h1 {
     text-align: center;
@@ -15,7 +17,7 @@ section{
 #slide1 {
     text-align: center;
     padding-top: 15px;
-    background-image: url("../img/tmp/jojofight.png");
+    background-image: url("../img/brain.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -26,10 +28,36 @@ section{
 #slide2 {
     text-align: center;
     padding-top: 15px;
-    background-image: url("../img/tmp/jojopose.jpg");
+    background-image: url("../img/html_wall.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 50px;
  }
+
+ .menu{
+    border-radius:20px;
+    display: flex;
+    width:100%;
+    background-color:#777777;
+    align-items: center;
+    position: -webkit-sticky; /*pour Safari */
+    position: sticky;
+    top: 0px;
+}
+.logox{
+    height: calc(145px);
+    width: calc(118px);
+    margin: 10px;    
+}
+#entetex{
+    display: flex;
+    width: 100%;
+    border-radius : 20px;
+    background-color:#777777;
+    margin: 2%;
+    margin-bottom: 2%;
+    padding-right:5%;
+    margin-left:0%;
+}
