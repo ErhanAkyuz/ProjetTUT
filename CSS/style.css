@@ -44,8 +44,8 @@ a, button{
     cursor: pointer;
 }
 .logo{
-    height: calc(145px);
     margin: 10px;    
+    width:145px;
 }
 .logoflat{
     margin-left:2%;

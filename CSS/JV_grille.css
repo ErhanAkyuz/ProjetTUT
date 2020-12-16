@@ -73,6 +73,7 @@
     color:white;
     padding:5px;
     border-radius:45px;
+    clear:right;
 }
 footer{
     padding:2px;
@@ -99,4 +100,14 @@ footer{
     padding: 1%;
     display: inline;
     text-align:center;
+}
+#logoOMS{
+    height: 100px;
+    width: 100px;
+    margin-left: 85%;
+}
+#logoSG{
+    height: 130px;
+    width: 130px;
+    margin-left: 80%;
 }
