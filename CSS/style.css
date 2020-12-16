@@ -67,6 +67,7 @@ nav{
 .menu .home{
     font-size: 50px;
     padding: 0 15px;
+    
 }
 .menu .navigation 
 { 
@@ -123,8 +124,11 @@ h2::selection{
     z-index: 1;
 }
 .lien{
-    text-decoration: none;
     color: black;
+}
+.lien:hover{
+    color:#00a0b0;
+    transition:1s;
 }
 #main2 {
     width: 750px;

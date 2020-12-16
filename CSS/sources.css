@@ -1,5 +1,11 @@
 body {
     padding: 2%;
+    background-image:url(../img/brain.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:95%; 
 }
 
 table,td {
@@ -13,7 +19,35 @@ thead,tfoot {
     background-color: #333;
     color: #fff;
 }
+table{
+    background-image:linear-gradient(0.90turn,#a26988,#73c5c9);
+}
 
 a {
     color: #e6007f;
+}
+a:hover{
+    color: #00a0b0;
+    transition:1s;
+    
+}
+.menu{
+    border-radius:20px;
+    display: flex;
+    width:100%;
+    background-color:#777777;
+    align-items: center;
+    position: -webkit-sticky; /*pour Safari */
+    position: sticky;
+    top: 0px;
+}
+#entetex{
+    display: flex;
+    width: 100%;
+    border-radius : 20px;
+    background-color:#777777;
+    margin: 2%;
+    margin-bottom: 2%;
+    padding-right:5%;
+    margin-left:0%;
 }
