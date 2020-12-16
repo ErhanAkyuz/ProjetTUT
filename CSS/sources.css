@@ -1,11 +1,13 @@
 body {
-    padding: 2%;
+    padding-right: 2%;
+    padding-left: 2%;
     background-image:url(../img/brain.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     width:95%; 
+    margin:0%;
 }
 
 table,td {
@@ -50,4 +52,14 @@ a:hover{
     margin-bottom: 2%;
     padding-right:5%;
     margin-left:0%;
+}
+footer{
+    margin-top:3%;
+    margin-bottom:0%;
+    background-color: #383838;
+    color: White;
+    border-top-right-radius:12px;
+    border-top-left-radius:12px;
+    padding: 3%;
+    text-align:center;
 }
