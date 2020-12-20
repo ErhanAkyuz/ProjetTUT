@@ -63,7 +63,7 @@
     border-radius :45px;
     background-image:linear-gradient(0.90turn, #F2F2F2,#AAD7D9);
     grid-row : 5;
-    grid-column: 3;
+    grid-column: 2/4;
     margin-right:2%;
 }
 .texteplus{
@@ -109,5 +109,12 @@ footer{
 }
 .butli:hover{
     background-color:#e6007f;
+}
+.affiche{
+    border: 5px solid;
+    border-radius :45px;
+    border-color: #00a0b0;
+    width:60%;
+    margin-left:38%;
 }
 
