@@ -193,4 +193,7 @@ strong{
 .hidden{
     display: none;
 }
-
+.active{
+    font-weight: bold;
+    color: #0fd7e9;
+}
