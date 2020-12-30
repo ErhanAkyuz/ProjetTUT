@@ -213,6 +213,10 @@ footer{
 }
 #img_att {
     width: 10%;
-    float: left;
-    margin-right: 1em;
+    margin-top: 5%;
+    margin-right: 0%;
+    margin-left: 45%;
+}
+.alerte {
+    text-align: center;
 }

@@ -30,7 +30,9 @@ window.onload = () => {
 }
 // ----------------------- Fin -----------------------  //
 
-// ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~  //
+
+// ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ //
+
 
 // ---------- Boutons qui affichent le texte ---------- //
 function toggleDisplay(id, buttonid, text){
@@ -40,32 +42,4 @@ function toggleDisplay(id, buttonid, text){
     element.classList.toString().includes("hidden") ? button.innerHTML = text ? text.display : "Voir moins" : button.innerHTML = text ? text.hide :"Voir plus";
     element.classList.toString().includes("hidden") ? element.classList.remove("hidden") : element.classList.add("hidden");
 }
-
-
-
-
-
-
-/*document.addEventListener('DOMContentLoaded', function () {
-	let cache = document.getElementById('bouton3');
-	cache.addEventListener('click', cacheTexte);
-	document.getElementById('tog3').style.display = 'none';
-
-	function cacheTexte() {
-		let para = document.getElementById('tog3');
-		if (para.style.display == 'none') {
-      para.style.display = 'block';
-      document.getElementById('bouton3').innerHTML = "Réduire l'onglet";
-		} else {
-      para.style.display = 'none';
-      document.getElementById('bouton3').innerHTML = "La VR c'est quoi ?";
-		}
-	}
-});*/
-// ---------------------- Fin ---------------------- //
-
-// ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ //
-
-// -------- Savoir si un élément est sticky -------- //
-//###================___EN COURS___==================// 4%
-// To check when element get's position sticky
+// ----------------------- Fin -----------------------  //
