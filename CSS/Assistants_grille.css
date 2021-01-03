@@ -64,16 +64,6 @@
     z-index: 1;
 }
 
-#img_paro {
-    grid-row : 4;
-    grid-column: 2;
-    float: right;
-    height: 30%;
-    width: auto;
-    margin-top: 72%;
-    margin-left: 8%;
-    z-index: 0;
-}
 .video{
     grid-row : 4;
     grid-column : 1;
